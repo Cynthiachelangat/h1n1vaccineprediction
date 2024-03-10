@@ -57,9 +57,7 @@ The provided code includes data preprocessing, exploratory data analysis (EDA), 
 **Best Model Selection:**
 --
 
-Both Logistic Regression and SVM consistently demonstrated the highest F1 scores among the listed algorithms. This suggests that they excel in achieving a balance between precision and recall, which is crucial for accurately identifying positive instances while minimizing false positives.
-
-If interpretability and simplicity are paramount considerations, Logistic Regression may be the preferable option. On the other hand, if sacrificing some interpretability in favor of potentially higher accuracy is acceptable, SVM could be the more suitable choice.
+XGBoost appears to be the best algorithm among Decision Tree, Random Forest, SVM, KNN, and Logistic Regression for minimizing false positives.
 
 **Recommendations:**
 --
